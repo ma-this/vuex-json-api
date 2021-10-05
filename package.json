@@ -1,6 +1,6 @@
 {
   "name": "@efrane/vuex-json-api",
-  "version": "0.0.32",
+  "version": "0.0.35",
   "description": "A Vuex library for interfacing with Json:Api endpoints",
   "license": "MIT",
   "authors": [
@@ -12,8 +12,7 @@
     "unit": "jest --config jest.config.js",
     "test": "yarn unit",
     "tdd": "yarn unit --watch",
-    "lint": "eslint --ext .js,.vue src test",
-    "prepare": "husky install"
+    "lint": "eslint --ext .js,.vue src test"
   },
   "dependencies": {
     "axios": "^0.*",
@@ -26,26 +25,26 @@
     "vue": "2.*"
   },
   "devDependencies": {
-    "@babel/core": "^7.14",
-    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
-    "@babel/plugin-transform-modules-commonjs": "^7.14.0",
-    "@babel/preset-env": "^7.14.2",
-    "babel-jest": "^26.0.1",
-    "eslint": "7.27.0",
-    "eslint-config-standard": "16.0.2",
+    "@babel/core": "^7.15",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.0.6",
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.3",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-import": "^2.23.3",
-    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-jest": "^24.5.2",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-vue": "^7.9.0",
-    "husky": "^6.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "husky": "^7.0.1",
     "jest": "^26.0.1",
     "jest-transform-stub": "^2.0.0",
-    "lint-staged": "^11.0.0",
-    "vue": "^2.6.10",
+    "lint-staged": "^11.1.2",
+    "vue": "^2.6.14",
     "vue-jest": "^3.0.5",
-    "vue-template-compiler": "^2.5.2"
+    "vue-template-compiler": "^2.6.14"
   },
   "engines": {
     "node": ">= 8.0.0",
