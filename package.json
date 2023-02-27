@@ -15,7 +15,7 @@
     "lint": "eslint --ext .js,.vue src test"
   },
   "dependencies": {
-    "axios": "^0.*",
+    "axios": "^1.*",
     "deep-object-diff": "^1.1.0",
     "json-api-normalizer": "^1.0",
     "qs": "~6.10.1",
